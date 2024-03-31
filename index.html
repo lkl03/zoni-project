@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZONI - Individual & Diverse Courses</title>
+    <link rel="icon" type="image/svh" href="media/favicon.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <!-- Toggler/collapsible Button for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Brand with placeholder image -->
+            <a class="navbar-brand" href="#">
+                <img src="media/zoni-logo.svg" alt="ZONI Logo">
+            </a>
+
+            <!-- Navbar links and other elements -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <a href="#" class="phone-number"><i class="fas fa-phone"></i> +1 888-495-0680</a>
+                <a href="#" class="contact-btn"><i class="fas fa-table"></i>Contact Us</a>
+            </div>
+
+            <!-- Sign In Button -->
+            <div class="sign-in">
+                <button class="btn btn-sign-in" type="button">Sign in</button>
+            </div>
+
+        </div>
+    </nav>
+    <div class="hero-section">
+        <!-- Overlay for text contrast -->
+        <div class="overlay"></div>
+
+        <!-- Hero text -->
+        <div class="container">
+            <div class="hero-text">
+                <h2 class="display-6">Individual Courses:</h1>
+                    <h1 class="display-4 main-title">Your Education with Zoni's Diverse Courses!
+                </h2>
+                <a href="#" class="btn btn-enroll">Enroll Now!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container top-courses">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="media/zoni-badge.svg" alt="ZONI Badge">
+                <h2 class="h3">Browse Our Top Courses</h2>
+            </div>
+        </div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs nav-fill" id="courseTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="history-tab" data-bs-toggle="tab" data-bs-target="#history"
+                    type="button" role="tab" aria-controls="history" aria-selected="true">History</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="math-tab" data-bs-toggle="tab" data-bs-target="#math" type="button"
+                    role="tab" aria-controls="math" aria-selected="false">Math</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="english-tab" data-bs-toggle="tab" data-bs-target="#english" type="button"
+                    role="tab" aria-controls="maenglishth" aria-selected="false">English</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="science-tab" data-bs-toggle="tab" data-bs-target="#science" type="button"
+                    role="tab" aria-controls="science" aria-selected="false">Science Electives</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="career-tab" data-bs-toggle="tab" data-bs-target="#career" type="button"
+                    role="tab" aria-controls="career" aria-selected="false">Career Courses</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="esol-tab" data-bs-toggle="tab" data-bs-target="#esol" type="button"
+                    role="tab" aria-controls="esol" aria-selected="false">ESOL</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ap-tab" data-bs-toggle="tab" data-bs-target="#ap" type="button" role="tab"
+                    aria-controls="ap" aria-selected="false">AP Courses</button>
+            </li>
+        </ul>
+
+        <!-- Tab content -->
+        <div class="tab-content" id="courseTabsContent">
+            <div class="tab-pane fade show active" id="history" role="tabpanel" aria-labelledby="history-tab">
+                <div class="row row-cols-1 row-cols-md-4 scrollable-row">
+                    <!-- First course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                            <div class="card-body">
+                                <h5 class="card-title">African American History</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Agriscience 1 Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                            <div class="card-body">
+                                <h5 class="card-title">English 3</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fourth course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding 1A - Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="math" role="tabpanel" aria-labelledby="math-tab">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- First course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                            <div class="card-body">
+                                <h5 class="card-title">African American History</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Agriscience 1 Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                            <div class="card-body">
+                                <h5 class="card-title">English 3</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fourth course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding 1A - Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="english" role="tabpanel" aria-labelledby="english-tab">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- First course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                            <div class="card-body">
+                                <h5 class="card-title">African American History</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Agriscience 1 Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                            <div class="card-body">
+                                <h5 class="card-title">English 3</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fourth course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding 1A - Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="science" role="tabpanel" aria-labelledby="science-tab">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- First course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                            <div class="card-body">
+                                <h5 class="card-title">African American History</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Agriscience 1 Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                            <div class="card-body">
+                                <h5 class="card-title">English 3</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fourth course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding 1A - Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="career" role="tabpanel" aria-labelledby="career-tab">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- First course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                            <div class="card-body">
+                                <h5 class="card-title">African American History</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Agriscience 1 Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                            <div class="card-body">
+                                <h5 class="card-title">English 3</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fourth course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding 1A - Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="esol" role="tabpanel" aria-labelledby="esol-tab">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- First course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                            <div class="card-body">
+                                <h5 class="card-title">African American History</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Agriscience 1 Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                            <div class="card-body">
+                                <h5 class="card-title">English 3</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fourth course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding 1A - Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="ap" role="tabpanel" aria-labelledby="ap-tab">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- First course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                            <div class="card-body">
+                                <h5 class="card-title">African American History</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Agriscience 1 Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                            <div class="card-body">
+                                <h5 class="card-title">English 3</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fourth course card -->
+                    <div class="col">
+                        <div class="card course-card">
+                            <div class="tag">Best Seller</div>
+                            <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding 1A - Introduction</h5>
+                                <p class="card-text">1 credit</p>
+                                <div class="star-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    (1.2K)
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container trending-courses">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="h3">Trending Courses</h2>
+            </div>
+        </div>
+        <!-- Scrollable row for cards on mobile -->
+        <div class="d-flex justify-content-center flex-wrap flex-lg-nowrap">
+            <!-- Course card -->
+            <div class="course-picbig" style="flex-basis: 100%;">
+                <img src="media/course-picbig.svg" class="card-img-top" alt="Coding 1B - Programming">
+            </div>
+
+            <div class="d-flex gap-2 justify-content-lg-center align-items-center flex-lg-wrap scrollable-row">
+
+                <div class="card course-card">
+                    <div class="tag">Best Seller</div>
+                    <img src="media/course-pic1.svg" class="card-img-top" alt="African American History">
+                    <div class="card-body">
+                        <h5 class="card-title">African American History</h5>
+                        <p class="card-text">1 credit</p>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            (1.2K)
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card course-card">
+                    <div class="tag">Best Seller</div>
+                    <img src="media/course-pic2.svg" class="card-img-top" alt="Agriscience 1 Introduction">
+                    <div class="card-body">
+                        <h5 class="card-title">Agriscience 1 Introduction</h5>
+                        <p class="card-text">1 credit</p>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            (1.2K)
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card course-card">
+                    <div class="tag">Best Seller</div>
+                    <img src="media/course-pic3.svg" class="card-img-top" alt="English 3">
+                    <div class="card-body">
+                        <h5 class="card-title">English 3</h5>
+                        <p class="card-text">1 credit</p>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            (1.2K)
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card course-card">
+                    <div class="tag">Best Seller</div>
+                    <img src="media/course-pic4.svg" class="card-img-top" alt="Coding 1A - Introduction">
+                    <div class="card-body">
+                        <h5 class="card-title">Coding 1A - Introduction</h5>
+                        <p class="card-text">1 credit</p>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            (1.2K)
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <a href="#" class="see-more">See More <i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="btn enroll-btn">Enroll Now! <i class="fas fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="enrollment-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="media/zoni-enroll-badge.svg" class="img-fluid" alt="Graduate">
+            </div>
+            <div class="col-md-6 text-center text-md-start background-shape">
+              <h2 class="h3 main-title">Want to know which program is right for you?</h2>
+              <a href="#" class="btn btn-enroll my-3"><i class="fas fa-hand-pointer"></i> Click Here Now!</a>
+              <h2 class="h3 main-title">Still Have Questions?</h2>
+              <p class="h5">Our admissions team is here to help!</p>
+                <a href="#" class="btn btn-enroll my-3"><i class="fas fa-phone"></i> Call Now!</a>
+                <div>
+                <a href="#" class="h4">+1 888-495-0680</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
